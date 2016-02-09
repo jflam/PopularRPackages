@@ -8,8 +8,9 @@ runExample("01_hello")
 runApp("shiny_1")
 
 # Here are the other built-in examples for Shiny
-# TODO: why can't we run these examples one after each other?
-# TODO: how does RStudio handle this scenario?
+# Note that the R engine is blocked listening for requests. So to 
+# run the other samples, you need to either reset or break execution.
+
 runExample("02_text") # tables and data frames
 runExample("03_reactivity") # a reactive expression
 runExample("04_mpg") # global variables
